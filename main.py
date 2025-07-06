@@ -159,7 +159,7 @@ def send_job_info(access_token, jobs, job_type):
 
 def job_report():
     # 定义要搜索的岗位列表
-    job_types = ["GIS", "前端", "产品经理"]
+    job_types = ["GIS", "前端", "运维"，"产品经理"]
     
     # 1. 获取access_token
     access_token = get_access_token()
